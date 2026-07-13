@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AliyHacker's Portfolio</title>
+    <!-- BoxIcon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    -->
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <!--
+    <canvas id="matrix"></canvas>
+
+    <div id="boot-screen">
+        <div id="terminal"></div>
+    </div>
+    -->
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="./Logo.png" alt="" />
+            <h1>Aliy Hacker</h1>
+            <h3>Black Hat Hacker</h3>
+
+            <div class="social-media">
+                <a href="https://t.me/AliyHacker" target="_blank">
+                    <i class="bx bxl-telegram"></i>
+                </a>
+
+                <a href="https://instagram.com/AliyHacker" target="_blank">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="https://youtube.com/@AliyHacker" target="_blank">
+                    <i class="bx bxl-youtube"></i>
+                </a>
+
+                <a href="https://discord.com/users/1525886025438593117" target="_blank">
+                    <i class="bx bxl-discord"></i>
+                </a>
+                <a href="https://github.com/aliyhacker" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://facebook.com/aliyhacker" target="_blank">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+            </div>
+
+            <p>
+              I don't chase attention – I study systems.
+              Every network has a story, every line of code hides a pattern, and every defense deserves to be understood. My focus is cybersecurity, Linux, Python automation, and continuous security research.
+              Technology is more than a tool to me—it's a battlefield of logic, precision, and constant learning. Every challenge is an opportunity to improve my skills and deepen my understanding.
+              "The strongest weapon in cyberspace is not access—it's understanding."
+            </p>
+          </div>
+        </div>
+
+        <!-- page 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- page 1 (work experience) -->
+          <div class="page-front">
+            <h1 class="title">Mission Archive</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-terminal"></i>Security Research</span>
+                <h3>Digital Reconnaissance</h3>
+                <p>
+                  Continuous research of operating systems, web technologies, and cybersecurity through practical analysis.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-lock-alt"></i>Python Operations</span>
+                <h3>Automation & Development</h3>
+                <p>
+                  Building Python applications, automation tools, Telegram bots, and reliable backend solutions.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-shield-quarter"></i>Offensive Security</span
+                >
+                <h3>Research & Analysis</h3>
+                <p>
+                  Studying attack surfaces, defensive techniques, and modern cybersecurity in authorized environments.
+                </p>
+              </div>
+            </div>
+            <span class="number-page">1</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+
+          <!-- page 2 (education) -->
+          <div class="page-back">
+            <h1 class="title">Knowledge</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-book-open"></i>Core Knowledge</span
+                >
+                <h3>Self-Taught Learning</h3>
+                <p>
+                  Built through independent research, technical documentation, open-source projects, and hands-on practice.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-terminal"></i>Primary Environment</span
+                >
+                <h3>Linux Ecosystem</h3>
+                <p>
+                  Daily work with Linux, command-line tools, networking, shell scripting, and system administration.
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bx-shield-quarter"></i>Current Research</span
+                >
+                <h3>Cybersecurity & AI</h3>
+                <p>
+                  Expanding knowledge in cybersecurity, AI, reverse engineering, and digital forensics.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">2</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (my services) -->
+          <div class="page-front">
+            <h1 class="title">Capabilities</h1>
+
+            <div class="services-box">
+              <div class="services-content">
+                <i class="bx bx-code-alt"></i>
+                <h3>Python Development</h3>
+                <p>
+                  Building Python automation, Telegram bots, and backend applications.
+                </p>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-shield-quarter"></i>
+                <h3>Cybersecurity Research</h3>
+                <p>
+                  Researching security concepts, system analysis, and defensive strategies.
+                </p>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-chip"></i>
+                <h3>AI & Automation</h3>
+                <p>
+                  Creating AI-assisted workflows and automation solutions.
+                </p>
+              </div>
+
+              <div class="services-content">
+                <i class="bx bx-server"></i>
+                <h3>Linux Systems</h3>
+                <p>
+                  Working with Linux, shell scripting, servers, and optimization.
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">3</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+
+          </div>
+          <!-- page 4 (my skills) -->
+          <div class="page-back">
+            <h1 class="title">Technical Stack</h1>
+
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Programming Languages</h3>
+                <div class="content">
+                  <span><i class="bx bxl-python"></i>Python</span>
+                  <span><i class="bx bxl-java"></i>Java</span>
+                  <span><i class="bx bxl-nodejs"></i>Node JS</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                  <h3>Cyber Security</h3>
+
+                  <div class="content">
+                      <span><i class="bx bxl-tux"></i>Linux</span>
+                      <span><i class="bx bx-network-chart"></i>Networking</span>
+                      <span><i class="bx bx-lock-alt"></i>Cryptography</span>
+                  </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Platforms & Tools</h3>
+                <div class="content">
+                  <span><i class="bx bxl-git"></i>Git</span>
+                  <span><i class="bx bx-terminal"></i>Terminal</span>
+                  <span><i class="bx bx-data"></i>SQLite</span>
+                  <span><i class="bx bxl-visual-studio"></i>VS Code</span>
+                  <span><i class="bx bx-shield"></i>Burp Suite</span>
+                  <span><i class="bx bx-world"></i>Nmap</span>
+                </div>
+              </div>
+            </div>
+
+            <span class="number-page">4</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+
+            <!-- page 5 & 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (latest project or many portfolio) -->
+                <div class="page-front">
+                    <h1 class="title">MANIFESTO</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                            <img src="hacker.png" alt="">
+                        </div>
+
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>Operation: Manifesto</h3>
+                                <a href="#">CLASSIFICATION: RESTRICTED</a>
+                            </div>
+                            <p class="declaration-title">Declaration</p>
+
+                           <div class="manifesto">
+
+                           <div>We are Anonymous</div>
+                            <div>We are Legion</div>
+
+                            <div>We do not forgive</div>
+                            <div>We do not forget</div>
+
+                            <div class="expect-us">EXPECT US!</div>
+
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                        </div>
+                    </div>
+
+                    <span class="number-page">5</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                      <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+
+<!-- page 6 -->
+<div class="page-back">
+    <h1 class="title">Connect Hub</h1>
+
+    <div class="contact-box">
+
+        <p class="contact-text">
+            Every meaningful connection begins with a conversation.
+        </p>
+
+        <p class="contact-subtext">
+            Reach me through any platform below.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="https://t.me/AliyHackerBot" target="_blank" class="contact-card">
+                <i class="bx bxl-telegram"></i>
+                <span>Telegram</span>
+            </a>
+
+            <a href="https://discord.com/users/1525886025438593117" target="_blank" class="contact-card">
+                <i class="bx bxl-discord"></i>
+                <span>Discord</span>
+            </a>
+
+            <a href="https://instagram.com/aliyhacker" target="_blank" class="contact-card">
+                <i class="bx bxl-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <a href="https://youtube.com/@AliyHacker" target="_blank" class="contact-card">
+                <i class="bx bxl-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            <a href="https://github.com/aliyhacker" target="_blank" class="contact-card">
+                <i class="bx bxl-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://facebook.com/aliyhacker" target="_blank" class="contact-card">
+                <i class="bx bxl-facebook"></i>
+                <span>Facebook</span>
+            </a>
+
+        </div>
+
+        <p class="contact-footer">
+            Open to collaborations.
+        </p>
+
+        <div class="network-box">
+
+            <img src="world-map.png" class="world-map" alt="World Map">
+
+            <p class="network-text">
+                Securing Connections Beyond Borders
+            </p>
+
+            <div class="copyright">
+                <p>© 2026 AliyHacker</p>
+                <p>
+                    <i class="bx bx-shield-quarter"></i>
+                    All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <span class="number-page">6</span>
+
+    <span class="nextprev-btn back" data-page="turn-3">
+        <i class="bx bx-chevron-left"></i>
+    </span>
+
+    <a href="#" class="back-profile">
+        <p>Back</p>
+        <i class="bx bxs-user"></i>
+    </a>
+
+</div>
+
+            </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
