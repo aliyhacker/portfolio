@@ -27,6 +27,16 @@ Interactive 3D book portfolio
 
 • Contact Hub with social platforms
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aliyhacker/live-page.git
+```
+
+Open `index.html` in your browser or deploy using GitHub Pages.
+
 ## 🌐 Connect With Me
 
 • Telegram: https://t.me/AliyHacker
