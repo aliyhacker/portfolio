@@ -32,7 +32,7 @@ Interactive 3D book portfolio
 Clone the repository:
 
 ```bash
-git clone https://github.com/aliyhacker/live-page.git
+git clone https://github.com/aliyhacker/portfolio.git
 ```
 
 Open `index.html` in your browser or deploy using GitHub Pages.
